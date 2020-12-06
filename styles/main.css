@@ -5,10 +5,11 @@
     --bg-color: #222831;
     --prim-color : #f2a365;
     --sec-color : #30475e;
+    --ult-bg-color:#13161a;
 }
 
 .ultra-bg{
-    background-color: #13161a;
+    background-color: var(--ult-bg-color);
 }
 
 body{
@@ -17,35 +18,119 @@ body{
     font-family: 'Kanit', sans-serif;
 
     max-width:600px;
-    margin:auto;
+    margin:auto;    
 
-    padding:1rem 1rem;
-    padding-inline-end:0rem 0rem;
+    padding-inline-start: 0rem 0rem 0rem 0rem;
 }
 
-.intro{
+.certerify{
+    text-align:center;
+}
+
+.hero{
     max-width:600px;
     text-align: center;
-    margin:auto;
-    
+    margin:auto;   
+    padding: 1rem 0rem;
+}
+
+.hero .lineheight{
+    line-height: 0.5rem;
+}
+
+.hero .myname{
+    color:var(--prim-color);
 }
 
 .prim-link{
     text-decoration: none;
     color:var(--bg-color);
     background-color: var(--prim-color);
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 3rem;
+    
     border-radius: 0.2rem;
+    
+
+    margin:0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.sec-link{
+    text-decoration: none;
+    color:var(--prim-color);
+    background-color: var(--sec-color);
+    
+    padding: 0.3rem 2rem;
+    
+    border-radius: 0.2rem;
+    border-color: var(--prim-color);
+    border-style:inset;
+
+    margin:0.5rem 0.5rem 0.5rem 0.5rem; 
+
 }
 
 .light-section{
     background-color: var(--sec-color);
-    padding:1rem 1rem;
+    padding:0.1rem 1rem;
     border-radius: 0.5rem;
 }
 
 .normal-section{
     border: var(--sec-color);
-    padding:1rem 1rem;
+    padding:0.1rem 1rem;
     border-radius: 0.5rem;
+    border-style: solid;
+}
+
+.link{
+    text-decoration: none;
+    
+}
+
+.non-bullet{
+    list-style: none;    
+}
+
+.list-inline{
+    display:inline;
+    padding:0rem 1rem 0rem 0.1rem;
+}
+
+/**navigation**/
+.navbar{
+    background-color:var(--prim-color);
+    padding:0.1rem 1rem;
+    color:var(--bg-color);
+    border-bottom-left-radius:1rem;
+    border-bottom-right-radius:1rem;
+}
+
+.list-pills-center{
+    text-align:center;
+    
+}
+
+.navbar .navlinks{
+    color:var(--txt-color);
+}
+
+.navbar .active{
+    font-weight: bold;
+    border-style:solid;
+    color:var(--sec-color);
+    border-color: var(--sec-color);
+    padding:0.1rem 0.5rem;f
+    
+}
+
+
+/**footer**/
+.foot{
+    background-color: var(--ult-bg-color);
+
+    padding:1rem 1rem;
+}
+
+.foot .footlinks{
+    color:var(--prim-color);
 }
