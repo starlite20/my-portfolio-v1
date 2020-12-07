@@ -12,6 +12,10 @@
     background-color: var(--ult-bg-color);
 }
 
+.padding-remover{
+    padding-inline-start: 0px;
+}
+
 body{
     background-color: var(--bg-color);
     color:var(--txt-color);
@@ -20,10 +24,10 @@ body{
     max-width:600px;
     margin:auto;    
 
-    padding-inline-start: 0rem 0rem 0rem 0rem;
+    padding-inline-start: 0px;
 }
 
-.certerify{
+.centerify{
     text-align:center;
 }
 
@@ -33,6 +37,15 @@ body{
     text-align: center;
     margin:auto;   
     padding: 1rem 0rem;
+}
+
+/**aboutme**/
+.aboutme{
+    max-width:600px;
+    text-align: center;
+    margin:auto;   
+    padding: 1rem 1.5rem;
+    margin-bottom:1rem;
 }
 
 .hero .lineheight{
@@ -77,15 +90,21 @@ body{
 
 .light-section{
     background-color: var(--sec-color);
-    padding:0.1rem 1rem;
+    padding:0.1rem 1rem 0.1rem;
     border-radius: 0.5rem;
+    margin-bottom:1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .normal-section{
     border: var(--sec-color);
-    padding:0.1rem 1rem;
+    padding:0.1rem 1rem 0.1rem;
     border-radius: 0.5rem;
     border-style: solid;
+    margin-bottom:0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .link{
@@ -99,7 +118,7 @@ body{
 
 .list-inline{
     display:inline;
-    padding:0rem 1rem 0rem 0.1rem;
+    padding:0rem 0.5rem 0rem 0.5rem;
 }
 
 /**navigation**/
@@ -113,7 +132,6 @@ body{
 
 .list-pills-center{
     text-align:center;
-    
 }
 
 .navbar .navlinks{
@@ -134,9 +152,13 @@ body{
 .foot{
     background-color: var(--ult-bg-color);
 
-    padding:1rem 1rem;
+    padding:1rem 1rem 5rem;
+
 }
 
 .foot .footlinks{
     color:var(--prim-color);
+    padding:0rem 1rem;
 }
+
+
