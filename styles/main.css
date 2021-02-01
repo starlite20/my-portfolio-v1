@@ -31,6 +31,10 @@ body{
     text-align:center;
 }
 
+.justifiy{
+    text-align: justify;
+}
+
 /**hero intro content**/
 .hero{
     max-width:600px;
@@ -102,6 +106,21 @@ body{
     margin-bottom:1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+.light-section .content{
+    padding: 0rem 2rem 0rem 2rem;
+    text-color:blue;
+}
+
+.numbering{
+    font-size: 2rem;
+    line-height: 0rem;
+}
+
+.projects{
+    padding:0rem 3rem 0rem 3rem;
+    
 }
 
 .normal-section{
