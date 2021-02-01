@@ -4,7 +4,7 @@
     --txt-color : #ececec;
     --bg-color: #222831;
     --prim-color : #f2a365;
-    --sec-color : #30475e;
+    --sec-color : #302c4e;
     --ult-bg-color:#13161a;
 }
 
@@ -49,11 +49,18 @@ body{
 }
 
 .hero .lineheight{
-    line-height: 0.5rem;
+    line-height: 0.1rem;
+    font-size: 1rem;
 }
 
 .hero .myname{
     color:var(--prim-color);
+    font-size: 2rem;
+}
+
+.hero .subtro{
+    line-height: 0.4rem;
+    font-style: ;
 }
 
 .hero-img{
