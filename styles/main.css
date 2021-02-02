@@ -4,7 +4,7 @@
     --txt-color : #ececec;
     --bg-color: #222831;
     --prim-color : #f2a365;
-    --sec-color : #302c4e;
+    --sec-color : #3f3d56;
     --ult-bg-color:#13161a;
 }
 
@@ -154,7 +154,7 @@ body{
     margin: auto;
     display: block;
     text-align: center;
-    max-width: 4rem;
+    max-width: 5rem;
 }
 
 
