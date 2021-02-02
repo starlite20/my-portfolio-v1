@@ -107,6 +107,7 @@ body{
     margin-bottom:1rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 .normal-section{
@@ -169,7 +170,7 @@ body{
 
 .list-inline{
     display:inline;
-    padding:0rem 0.5rem 0rem 0.5rem;
+    padding:0rem 0.6rem 0rem 0.6rem;
 }
 
 /**navigation**/
