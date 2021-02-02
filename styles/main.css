@@ -120,6 +120,46 @@ body{
     margin-right: 0.5rem;
 }
 
+/**work-exp zone**/
+.work-time-period{
+    font-size: 1rem;
+    line-height: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    text-align: right;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+.work-expe{
+    padding:0rem 2rem 2rem 2rem;
+    
+}
+
+.work-expe .head-main{
+    color:var(--prim-color);
+    text-align: right;
+    margin-bottom: 0rem;
+    margin-top: 0.5rem;
+}
+
+.work-expe .subhead{
+    background-color:var(--prim-color);
+    padding: 0.2rem 1rem 0.2rem 1rem;
+    font-size: 1.2rem;
+    color:var(--sec-color);
+    text-align: right;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.work-expe .prim-link{
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 5rem;
+}
+
+
 /**projects zone**/
 .numbering{
     font-size: 2rem;
@@ -197,6 +237,13 @@ body{
     border-color: var(--sec-color);
     padding:0.1rem 0.5rem;f
     
+}
+
+.banner-name{
+    letter-spacing:1.2rem;
+    text-align: center;
+    text-indent: 1.2rem;
+    color:var(--sec-color);
 }
 
 
