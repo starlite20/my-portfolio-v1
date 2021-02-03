@@ -198,6 +198,13 @@ body{
     max-width: 5rem;
 }
 
+.projects .sec-link{
+    margin: auto;
+    display: block;
+    text-align: center;
+    max-width: 5rem;
+}
+
 
 .link{
     text-decoration: none;
