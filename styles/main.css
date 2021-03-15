@@ -64,7 +64,7 @@ body{
 
 .hero .subtro{
     line-height: 0.4rem;
-    font-style: ;
+    font-style:normal;
 }
 
 .hero-img{
@@ -231,10 +231,27 @@ body{
 
 .list-pills-center{
     text-align:center;
+    
 }
 
 .navbar .navlinks{
-    color:var(--txt-color);
+    color : var(--txt-color);
+    padding : 0.1rem 0.5rem 0.1rem;
+    border-radius: 0.5rem;
+
+    animation: thenavlink_notif 1s linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.navbar-animated li:nth-child(1){ animation-delay: .5s; }
+.navbar-animated li:nth-child(2){ animation-delay: 1s; }
+.navbar-animated li:nth-child(3){ animation-delay: 1.5s; }
+.navbar-animated li:nth-child(4){ animation-delay: 2s; }
+
+.navbar .navlinks:hover{
+    background-color: var(--sec-color);
 }
 
 .navbar .active{
@@ -242,14 +259,20 @@ body{
     border-style:solid;
     color:var(--sec-color);
     border-color: var(--sec-color);
-    padding:0.1rem 0.5rem;f
+    padding:0.1rem 0.5rem;    
     
 }
 
+.navbar .active:hover{
+    background-color: var(--txt-color);
+}
+
+
+
 .banner-name{
     letter-spacing:1.2rem;
-    text-align: center;
-    text-indent: 1.2rem;
+    text-align : center;
+    text-indent : 1.2rem;
     color:var(--sec-color);
 }
 
@@ -264,7 +287,13 @@ body{
 
 .foot .footlinks{
     color:var(--prim-color);
-    padding:0rem 1rem;
+    padding:0.4rem 1rem 0.4rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.foot .footlinks:hover{
+    background-color: var(--bg-color);
+    
 }
 
 
@@ -287,4 +316,12 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+/**Animation Code**/
+@keyframes thenavlink_notif
+{
+    0% { background-color: var(--prim-color);}
+    50% { background-color: var(--sec-color) ;}
+    100% { background-color: var(--prim-color);}
 }
