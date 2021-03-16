@@ -227,6 +227,8 @@ body{
     color:var(--bg-color);
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
+
+    
 }
 
 .list-pills-center{
@@ -236,22 +238,55 @@ body{
 
 .navbar .navlinks{
     color : var(--txt-color);
+
+    padding : 0.1rem 0.5rem 0.1rem;
+    border-radius: 0.5rem;
+}
+
+.navlink1{
+    padding : 0.1rem 0.5rem 0.1rem;
+    border-radius: 0.5rem;
+    
+    animation: thenavlink_notif 2s linear;
+    -webkit-animation-delay: 0.25s;
+    animation-delay: 0.25s;
+    animation-iteration-count: infinite;
+}
+
+.navlink2{
+    padding : 0.1rem 0.5rem 0.1rem 0.5rem;
+    border-radius: 0.5rem;
+    
+    animation: thenavlink_notif 2s linear;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.navlink3{
+    padding : 0.1rem 0.5rem 0.1rem;
+    border-radius: 0.5rem;
+    
+    animation: thenavlink_notif 2s linear;
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+    animation-iteration-count: infinite;
+}
+
+.navlink4{
     padding : 0.1rem 0.5rem 0.1rem;
     border-radius: 0.5rem;
 
-    animation: thenavlink_notif 1s linear;
-    animation-fill-mode: both;
+    animation: thenavlink_notif 2s linear;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
-.navbar-animated li:nth-child(1){ animation-delay: .5s; }
-.navbar-animated li:nth-child(2){ animation-delay: 1s; }
-.navbar-animated li:nth-child(3){ animation-delay: 1.5s; }
-.navbar-animated li:nth-child(4){ animation-delay: 2s; }
-
 .navbar .navlinks:hover{
-    background-color: var(--sec-color);
+    padding : 0.1rem 0.5rem 0.1rem 0.5rem;
+    background-color: var(--txt-color);
+    color: var(--sec-color);
 }
 
 .navbar .active{
@@ -260,12 +295,8 @@ body{
     color:var(--sec-color);
     border-color: var(--sec-color);
     padding:0.1rem 0.5rem;    
-    
 }
 
-.navbar .active:hover{
-    background-color: var(--txt-color);
-}
 
 
 
@@ -318,10 +349,12 @@ body{
     height: 100%;
 }
 
+
 /**Animation Code**/
 @keyframes thenavlink_notif
 {
     0% { background-color: var(--prim-color);}
-    50% { background-color: var(--sec-color) ;}
+    45% { background-color: var(--sec-color) ;}
+    65% { background-color: var(--sec-color) ;}
     100% { background-color: var(--prim-color);}
 }
