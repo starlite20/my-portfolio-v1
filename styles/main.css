@@ -202,7 +202,15 @@ body{
     margin: auto;
     display: block;
     text-align: center;
-    max-width: 5rem;
+
+    margin-top: 1rem;
+    max-width: 9rem;
+}
+
+.projects .sec-link:hover{
+    background-color: var(--prim-color);
+    color: var(--ult-bg-color);
+    border-color: var(--txt-color);
 }
 
 
