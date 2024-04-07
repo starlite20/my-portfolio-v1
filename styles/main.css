@@ -2,10 +2,10 @@
 
 :root{
     --txt-color : #ececec;
-    --bg-color: #222831;
-    --prim-color : #f2a365;
-    --sec-color : #3f3d56;
-    --ult-bg-color:#13161a;
+    --bg-color: rgb(15, 23, 42);
+    --prim-color : rgb(32, 52, 100);
+    --sec-color : #9dbaff;
+    --ult-bg-color:#020617;
 }
 
 .ultra-bg{
@@ -58,7 +58,7 @@ body{
 }
 
 .hero .myname{
-    color:var(--prim-color);
+    color:var(--sec-color);
     font-size: 2rem;
 }
 
@@ -101,7 +101,7 @@ body{
 }
 
 .light-section{
-    background-color: var(--sec-color);
+    background-color: var(--bg-color);
     padding:0.1rem 1rem 0.1rem;
     border-radius: 0.5rem;
     margin-bottom:1rem;
@@ -136,7 +136,7 @@ body{
 }
 
 .work-expe .head-main{
-    color:var(--prim-color);
+    color:var(--txt-color);
     text-align: right;
     margin-bottom: 0rem;
     margin-top: 0.5rem;
@@ -176,7 +176,7 @@ body{
 }
 
 .projects .head-main{
-    color:var(--prim-color);
+    color:var(--txt-color);
     text-align: right;
     margin-bottom: 0rem;
 }
@@ -325,7 +325,7 @@ body{
 }
 
 .foot .footlinks{
-    color:var(--prim-color);
+    color:var(--sec-color);
     padding:0.4rem 1rem 0.4rem 1rem;
     border-radius: 0.5rem;
 }
