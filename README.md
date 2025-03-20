@@ -10,7 +10,7 @@ Welcome to my first personal portfolio website! This project showcases my skills
 
 ## Tech Stack Used
 
-- **Programmed In**: HTML | CSS | JavaScript
+- **Programmed In**: HTML | CSS
 - **Hosting**: Netlify
 
 
