@@ -52,6 +52,7 @@ body{
 
 /**aboutme**/
 .aboutme{
+    font-size: 0.85rem;
     max-width:600px;
     text-align: center;
     margin:auto;   
@@ -186,7 +187,7 @@ body{
     font-weight: 600;
 }
 
-.job-description ul li .highlight {
+.highlight {
     font-weight: 200; 
 }
 
