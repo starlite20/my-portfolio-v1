@@ -60,7 +60,7 @@ body{
 }
 
 .hero .lineheight{
-    line-height: 0.1rem;
+    line-height: 0.5rem;
     font-size: 1rem;
 }
 
@@ -70,7 +70,8 @@ body{
 }
 
 .hero .subtro{
-    line-height: 0.4rem;
+    font-weight: bolder;
+    line-height: 1.5rem;
     font-style:normal;
 }
 
@@ -128,35 +129,39 @@ body{
 }
 
 /**work-exp zone**/
-.work-time-period{
-    font-size: 1rem;
-    line-height: 0rem;
-    padding: 3rem 0rem 0rem 0rem;
-    text-align: right;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-}
-
 .work-expe{
     padding:0rem 2rem 2rem 2rem;
-    
 }
 
-.work-expe .head-main{
+.work-time-period{
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 0rem;
+    padding: 3rem 0rem 0rem 0rem;
+    margin-bottom: 0.7rem;
+    margin-top: 0rem;
+    text-align: center;
+    color:var(--header-glow-color);
+
+}
+
+.head-main{
     color:var(--txt-color);
-    text-align: right;
     margin-bottom: 0rem;
     margin-top: 0.5rem;
+    text-align: center;
 }
 
-.work-expe .subhead{
+.subhead{
     background-color:var(--prim-color);
     padding: 0.2rem 1rem 0.2rem 1rem;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color:var(--sec-color);
-    text-align: right;
     margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .work-expe .prim-link{
@@ -166,36 +171,30 @@ body{
     max-width: 5rem;
 }
 
+.job-description ul {
+    list-style-type:disc; 
+    padding-left: 20px; 
+    margin: 0 0.5rem 0 0;
+    font-size: 0.85rem;
+}
+
+.job-description ul li {
+    margin-bottom: 8px; 
+    line-height: 1.4; 
+}
+
+.job-description ul li strong {
+    font-weight: 600;
+}
+
+.job-description ul li .highlight {
+    font-weight: 200; 
+}
+
 
 /**projects zone**/
-.numbering{
-    font-size: 2rem;
-    line-height: 0rem;
-    padding: 3rem 0rem 0rem 0rem;
-    text-align: right;
-    margin-bottom: 0rem;
-    margin-top: 0rem;
-}
-
 .projects{
     padding:0rem 2rem 2rem 2rem;
-    
-}
-
-.projects .head-main{
-    color:var(--txt-color);
-    text-align: right;
-    margin-bottom: 0rem;
-}
-
-.projects .subhead{
-    background-color:var(--prim-color);
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: 1rem;
-    color:var(--sec-color);
-    text-align: center;
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
 }
 
 .projects .prim-link{
@@ -209,6 +208,7 @@ body{
     margin: auto;
     display: block;
     text-align: center;
+    font-weight: bolder;
 
     margin-top: 1rem;
     max-width: 9rem;
@@ -216,7 +216,7 @@ body{
 
 .projects .sec-link:hover{
     background-color: var(--prim-color);
-    color: var(--ult-bg-color);
+    color: var(--txt-color);
     border-color: var(--txt-color);
 }
 
