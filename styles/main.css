@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
 :root{
     --txt-color : #ececec;
@@ -6,6 +6,14 @@
     --prim-color : rgb(32, 52, 100);
     --sec-color : #9dbaff;
     --ult-bg-color:#020617;
+    --header-glow-color:#5da9e9;
+}
+
+.font-normal {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
 }
 
 .ultra-bg{
@@ -19,7 +27,6 @@
 body{
     background-color: var(--bg-color);
     color:var(--txt-color);
-    font-family: 'Kanit', sans-serif;
 
     max-width:600px;
     margin:auto;    
@@ -230,13 +237,16 @@ body{
 
 /**navigation**/
 .navbar{
-    background-color:var(--prim-color);
+    background-color:#13315c;
     padding:0.1rem 1rem;
     color:var(--bg-color);
     border-bottom-left-radius:1rem;
     border-bottom-right-radius:1rem;
+}
 
-    
+.navbar .myname{
+    font-size: 2rem;
+    text-align: center;
 }
 
 .list-pills-center{
@@ -251,50 +261,10 @@ body{
     border-radius: 0.5rem;
 }
 
-.navlink1{
-    padding : 0.1rem 0.5rem 0.1rem;
-    border-radius: 0.5rem;
-    
-    animation: thenavlink_notif 2s linear;
-    -webkit-animation-delay: 0.25s;
-    animation-delay: 0.25s;
-    animation-iteration-count: infinite;
-}
-
-.navlink2{
-    padding : 0.1rem 0.5rem 0.1rem 0.5rem;
-    border-radius: 0.5rem;
-    
-    animation: thenavlink_notif 2s linear;
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-    animation-iteration-count: infinite;
-}
-
-.navlink3{
-    padding : 0.1rem 0.5rem 0.1rem;
-    border-radius: 0.5rem;
-    
-    animation: thenavlink_notif 2s linear;
-    -webkit-animation-delay: 0.75s;
-    animation-delay: 0.75s;
-    animation-iteration-count: infinite;
-}
-
-.navlink4{
-    padding : 0.1rem 0.5rem 0.1rem;
-    border-radius: 0.5rem;
-
-    animation: thenavlink_notif 2s linear;
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-}
-
 .navbar .navlinks:hover{
     padding : 0.1rem 0.5rem 0.1rem 0.5rem;
     background-color: var(--txt-color);
-    color: var(--sec-color);
+    color: var(--ult-bg-color);
 }
 
 .navbar .active{
@@ -302,26 +272,42 @@ body{
     border-style:solid;
     color:var(--sec-color);
     border-color: var(--sec-color);
+    border: 0px 0px 0px 10px;
     padding:0.1rem 0.5rem;    
 }
 
 
 
 
-.banner-name{
-    letter-spacing:1.2rem;
-    text-align : center;
-    text-indent : 1.2rem;
-    color:var(--sec-color);
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: var(--header-glow-color);
+  box-shadow: 0 0 25px var(--header-glow-color);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px var(--header-glow-color),
+              0 0 25px var(--header-glow-color),
+              0 0 50px var(--header-glow-color),
+              0 0 100px var(--header-glow-color);
 }
 
 
 /**footer**/
 .foot{
     background-color: var(--ult-bg-color);
-
     padding:1rem 1rem 5rem;
-
 }
 
 .foot .footlinks{
